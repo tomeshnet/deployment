@@ -101,6 +101,7 @@ The network topology may look something like this:
 All the nodes run cjdns and has a unique IPv6 address. All these devices may be Raspberry Pi's, or other devices capable of running cjdns and support Mesh Point radios.
 
 `Validate`: The cjdns IP tunneling feature via IPv6 pinning.
+
 `Validate`: How many Clients can a Raspberry Pi support as Internet Gateway. We will likely need x86 machines to serve as exit for many Clients.
 
 The above model that meshes based on low-power radios running in Mesh Point can mesh a small geographic area, such as within the same building with little walls in between. If we need to mesh across buildings over hundreds or thousands of metres, we will need high-power directional line-of-sight links. Two nodes responsible for bridging geographically distant local meshes may look like this:
