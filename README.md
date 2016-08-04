@@ -127,3 +127,8 @@ In the case of a Mesh Point-connected local mesh, peering is automatic over Laye
 We can have these bridging Raspbery Pi's generate unique IPv6 addresses, similar to how we generate cjdns addresses, assign them to the ethernet network device, and manually peer with the Raspberry Pi at the other end through these IPv6 addresses. Note that these differ from the cjdns IPv6 identity, which is assigned to the TUN device.
 
 `Validate`: With the above IP peering scheme, verify that the bridging Raspberry Pi's can connect to each other, and that other devices in each local mesh can address devices across the line-of-sight link.
+
+## Links
+
+[cjdns](https://github.com/cjdelisle/cjdns)
+[Elvisp](https://github.com/willeponken/elvisp)
